@@ -13,6 +13,28 @@ img {
 
 a {
     color: black;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.dspl-flx-arr {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.size-icon {
+    width: 25px;
+    height: 25px;
+}
+
+.bord-posit {
+    position: relative;
+    top: 5px;
+    border-radius: 20px;
 }
 
 .global {
@@ -88,6 +110,10 @@ section {
 @media (max-width: 617px) {
     .obstacles {
         left: 94%;
+    }
+
+    .dspl-flx-arr {
+        display: grid;
     }
 }
 
