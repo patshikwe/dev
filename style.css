@@ -47,7 +47,7 @@ li {
 
 }
 
-section {
+.container-game {
     width: 90%;
     display: flex;
     justify-content: center;
@@ -57,7 +57,7 @@ section {
     box-shadow: 0 0 50px rgb(162, 159, 159);
 }
 
-.jeu {
+.game {
     width: 90%;
     height: 200px;
     border: 1px solid black;
